@@ -1,4 +1,4 @@
-
+require 'pry'
 
 <<<<<<< HEAD
  array = ["kiwi", "durian", "starfruit"]
@@ -16,6 +16,7 @@ def oxford_comma(array)
   array.map {|i| i << ", "}
   array << "and " 
   array << array_last
+  binding.pry
       array.join
   end  
   
