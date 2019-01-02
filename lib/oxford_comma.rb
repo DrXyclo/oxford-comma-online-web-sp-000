@@ -1,5 +1,6 @@
 
 
+<<<<<<< HEAD
 # array = ["kiwi", "durian", "starfruit"]
 # array =["kiwi"]
 array = ["kiwi", "durian"]
@@ -24,6 +25,21 @@ def oxford_comma(array)
   # puts array.join
   # array  << array.last
   # puts array
+=======
+array = ["kiwi", "durian", "starfruit"]
+
+ 
+
+def oxford_comma(array) 
+  array_length_minus_1 = array.length-1
+  array.insert(array_length_minus_1, " and ")  
+  array.map do |i|
+    i << ","
+    print array
+  end
+  array.join
+  print array
+>>>>>>> 1740a7950c1b8bf4b21a6ce50da33560f7cd5b04
 end 
   
  
