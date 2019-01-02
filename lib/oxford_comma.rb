@@ -1,9 +1,9 @@
 
 
 <<<<<<< HEAD
-# array = ["kiwi", "durian", "starfruit"]
+ array = ["kiwi", "durian", "starfruit"]
 # array =["kiwi"]
-array = ["kiwi", "durian"]
+#array = ["kiwi", "durian"]
 # array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
 #array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychees", "pomelos"]
 
@@ -19,12 +19,7 @@ def oxford_comma(array)
       array.join
   end  
   
-  # array.push("and ")
-  # array_length_minus_1 = array.length-1
-  # array.insert(array_length_minus_1, " and ")
-  # puts array.join
-  # array  << array.last
-  # puts array
+=begin
 =======
 array = ["kiwi", "durian", "starfruit"]
 
